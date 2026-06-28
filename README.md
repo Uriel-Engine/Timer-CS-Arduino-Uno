@@ -1,6 +1,6 @@
-# Arduino Counter-Strike Timer
+# Arduino CS Timer
 
-Un **Temporizador inspirado en Counter-Strike** construido con un **Arduino Uno**, utilizando una **pantalla LCD 16x2 con interfaz I2C**, un **teclado matricial 4x4**, un **DFPlayer Mini** para los efectos de sonido y un **LED sincronizado con la cuenta regresiva**.
+Un **Temporizador inspirado en CS** construido con un **Arduino Uno**, utilizando una **pantalla LCD 16x2 con interfaz I2C**, un **teclado matricial 4x4**, un **DFPlayer Mini** para los efectos de sonido y un **LED sincronizado con la cuenta regresiva**.
 
 > Este proyecto está destinado únicamente para fines de entretenimiento, Escape Rooms, creación de props y propósitos educativos.
 
@@ -8,7 +8,7 @@ Un **Temporizador inspirado en Counter-Strike** construido con un **Arduino Uno*
 
 # 📸 Características
 
-- ⏱ Temporizador inspirado en Counter-Strike
+- ⏱ Temporizador inspirado en CS
 - ⌨️ Interfaz mediante teclado matricial 4x4
 - 🔊 Efectos de sonido utilizando DFPlayer Mini
 - 💡 LED sincronizado con los beeps de la cuenta regresiva
@@ -197,7 +197,7 @@ Copia estos archivos en la raíz de la tarjeta MicroSD en el DFPlayer mini.
 Timer_CS.ino
 README.md
 /
-└── Tarjeta SD
+└── Tarjeta SD    (los audios no se incluyen en el proyecto, deberán ser creados y cargados en la SD por el usuario)
     ├── 0001.mp3
     ├── 0002.mp3
     ├── 0003.mp3
