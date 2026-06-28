@@ -138,7 +138,7 @@ Estos valores se restauran automáticamente cada vez que el Arduino se enciende.
 # ⏱ Funcionamiento
 
 1. Selecciona **Iniciar / Plantar**.
-2. Se reproduce el sonido **"Bomb Planted"**.
+2. Se reproduce el sonido **"Planted"**.
 3. Comienza la cuenta regresiva.
 4. Cada segundo:
    - Se actualiza la pantalla LCD.
@@ -180,12 +180,12 @@ Si durante **15 segundos** no se presiona ninguna tecla mientras se está ingres
 
 # 🔊 Archivos de Audio
 
-Copia estos archivos en la raíz de la tarjeta MicroSD en el DFPlayer mini.
+Formato de los audios en la SD del DFPlayer mini.
 
 | Archivo  | Descripción         |
 |----------|---------------------|
 | 0001.mp3 | Beep                |
-| 0002.mp3 | Bomb Planted        |
+| 0002.mp3 | Planted             |
 | 0003.mp3 | Victoria            |
 | 0004.mp3 | Explosión / Derrota |
 
